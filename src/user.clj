@@ -23,7 +23,7 @@
 #_(m/match {:a 1}
          {:b ?b}
          ?b)
-(match 42
+(m/match 42
        (pred even?)
        :okay)
 
